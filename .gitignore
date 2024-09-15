@@ -1,0 +1,39 @@
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore IntelliJ IDEA and JetBrains IDE project files
+.idea/
+*.iml
+
+# Ignore build directories
+/build/
+out/
+target/
+
+# Ignore log files
+*.log
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore package files
+*.jar
+*.war
+*.ear
+
+# Ignore Maven and Gradle directories
+.mvn/
+.gradle/
+*.lock
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Ignore any files in Final Task folders that shouldn't be tracked
+Final Task 1/build/
+Final Task 2/build/
+
+# Ignore Git repository files
+.git/
